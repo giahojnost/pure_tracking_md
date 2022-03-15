@@ -1,7 +1,8 @@
 ## Admin 기능 설명
 ### Training Subject 관리
 1. Training Subject 관리
-    - NOTE: Training Subject 생성 시 선행 Subject 선택 가능(Auto-complete지원) (해당 Subject가 완료되기 전에는 해당 Subject는 표기하지 않거나 혹은 조작(완료/미완료 상태변경)불가 상태.)
+    - NOTE: Training Subject 생성 시 선행 Subject 선택 가능(Auto-complete지원) 
+    - 해당 Subject가 완료되기 전에는 해당 Subject는 표기하지 않거나 혹은 조작(완료/미완료 상태변경)불가 상태.
 2. Training Subject 소속 Item 관리
     - Item은 중복사용이 가능함
     - 소속 선택 시 신규생성 혹은 기존에서 선택
