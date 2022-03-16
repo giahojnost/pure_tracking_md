@@ -1,7 +1,7 @@
 
 ## VBO 기능 설명
 ### Prospect 관리
-- NOTE: 현재 있는 필드 확장함. 확장 된 부분은 DB참조, 구현시 Benchmarking Site 참조하면서 진행.
+> NOTE: 현재 있는 필드 확장함. 확장 된 부분은 DB참조, 구현시 [Benchmarking Site](https://pulsepenny.rodanandfields.com/app/daily) 참조하면서 진행.
 - Prospect 병합 지원 
     - 현재 선택한 Prospect 기준으로 현재 Prospect에 없는 정보를 두번째 Prospect의 정보로 입력함
     - 두 Prospect의 정보 모두 비어 있으면 그냥 비워둠
@@ -12,7 +12,7 @@
 - Status Marking 지원
 - Sample 보내기 지원
 ### Task 관리
-> Flow 간략 설명, 구현 시 [Benchmarking Site](https://pulsepenny.rodanandfields.com/app/daily) 참조하면서 진행.
+> NOTE: Flow 간략 설명, 구현 시 [Benchmarking Site](https://pulsepenny.rodanandfields.com/app/daily) 참조하면서 진행.
 > Tag는 **아직** 지원하지 않음.
 - **신규생성**
     1. Prospect 선택
