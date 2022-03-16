@@ -10,7 +10,7 @@
 - 주소 기능 지원
 - Categorize 기능 지원
 - Status Marking 지원
-- Sample Kit 보내기 여부 Marking 지원
+- Sample 보내기 지원
 ### Task 관리
 > Flow 간략 설명, 구현 시 [Benchmarking Site](https://pulsepenny.rodanandfields.com/app/daily) 참조하면서 진행.
 > Tag는 **아직** 지원하지 않음.
