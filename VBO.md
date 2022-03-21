@@ -12,8 +12,8 @@
     - 두 Prospect의 정보 모두 비어 있으면 그냥 비워둠
     - 두번쨰 Prospect의 모든 기록은 첫번째 Prospect에 계승이 아니라 완전히 삭제됨.
 - 프로필 이미지 / 주소 지원 (rep_prospects)
-- Categorize (task_prospect_categories)
-- Status 변경 (task_prospect_status)
+- Categorize (task_prospect_categories 중 값)
+- Status 변경 (task_prospect_status 중 값)
 - Sample 보내기 Flow:
     - 보낼 혹은 이미 보낸 Sample(task_prospect_samples) 선택 (다중선택)
     - 보낼 혹은 이미 보낸 날짜 선택
