@@ -6,10 +6,11 @@
 - Prospects (**rep_prospects**)
 - Prospect Category (**task_prospect_categories**)
 - Prospect Status (**task_prospect_status**)
-- Sample Items (**task_prospect_samples**)
+- Prospect Sample Items (**task_prospect_samples**)
 ---
-- Training Sharing Configurations (**task_sharing_config**) Task에 노출되는 Share Section 설정
-- Training Sharing Analytics (**task_share_analytics**) - Share 추적
+- Task Sharing Configurations (**task_sharing_config**) Task에 노출되는 Share Section 설정
+- Task Sharing Analytics (**task_share_analytics**) - Share 추적
+---
 - Training Subject Types (**task_training_types**)
 - Training Element Types (**task_training_element_types**)
 - Training Subjects (**task_training_subjects**)
