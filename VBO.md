@@ -11,11 +11,12 @@
     - 현재 선택한 Prospect 기준으로 현재 Prospect에 없는 정보를 두번째 Prospect의 정보로 입력함
     - 두 Prospect의 정보 모두 비어 있으면 그냥 비워둠
     - 두번쨰 Prospect의 모든 기록은 첫번째 Prospect에 계승이 아니라 완전히 삭제됨.
-- 프로필 이미지 지원
-- 주소 기능 지원
-- Categorize 기능 지원
-- Status Marking 지원
-- Sample 보내기 지원
+- 프로필 이미지 / 주소 지원 (rep_prospects)
+- Categorize (task_prospect_categories)
+- Status 변경 (task_prospect_status)
+- Sample 보내기 Flow:
+    - 보낼 혹은 이미 보낸 Sample(task_prospect_samples) 선택 (다중선택)
+    - 보낼 혹은 이미 보낸 날짜 선택
 ### Task 관리
 > NOTE: Flow 간략 설명, 구현 시 [Benchmarking Site](https://pulsepenny.rodanandfields.com/app/daily) 참조하면서 진행.
 > Tag는 **아직** 지원하지 않음.
