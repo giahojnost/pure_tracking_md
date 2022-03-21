@@ -1,5 +1,10 @@
 
 ## VBO 기능 설명
+### Training Task 기능
+- Admin에서 설정 된 Training Subjects를 노출.
+- Training Subject Item
+    - Complete / Undo
+    - 설정된 element별로 조작 가능.
 ### Prospect 관리
 > NOTE: 현재 있는 필드 확장함. 확장 된 부분은 DB참조, 구현시 [Benchmarking Site](https://pulsepenny.rodanandfields.com/app/daily) 참조하면서 진행.
 - Prospect 병합 지원 
