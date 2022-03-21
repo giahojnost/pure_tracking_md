@@ -6,6 +6,7 @@
 - Prospects (rep_prospects)
 - Prospect Category (task_prospect_categories)
 - Prospect Status (task_prospect_status)
+- Sample Items (task_prospect_samples)
 ---
 - Training Sharing Configurations (task_sharing_config) Task에 노출되는 Share Section 설정
 - Training Sharing Analytics (task_share_analytics) - Share 추적
