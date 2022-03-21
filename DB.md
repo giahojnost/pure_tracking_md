@@ -7,6 +7,7 @@
 - Prospect Category (**task_prospect_categories**)
 - Prospect Status (**task_prospect_status**)
 - Prospect Sample Items (**task_prospect_samples**)
+- Prospect Sample Item Sent Logs (**task_prospect_sample_sents**)
 ---
 - Task Sharing Configurations (**task_sharing_config**) Task에 노출되는 Share Section 설정
 - Task Sharing Analytics (**task_share_analytics**) - Share 추적
@@ -71,7 +72,7 @@
 | `tasks_training_subject_users` | rep_id              |                   `reps` | id                  |             |
 | `tasks_training_subject_users` | rep_number          |                   `reps` | number              |             |
 | `tasks_training_subject_users` | training_subject_id | `task_training_subjects` | id                  |             |
-
+---
 | **Table**                    | **Fields**                  | **Reference Table**              | **Reference Field** | **Comment** |
 |------------------------------|-----------------------------|----------------------------------|---------------------|-------------|
 | `tasks_training_items_users` | rep_id                      |                           `reps` | id                  |             |
@@ -79,3 +80,10 @@
 | `tasks_training_items_users` | training_subject_id         |         `task_training_subjects` | id                  |             |
 | `tasks_training_items_users` | training_item_id            |            `task_training_items` | id                  |             |
 | `tasks_training_items_users` | training_subject_item_id    |    `task_training_subject_items` | id                  |             |
+---
+| **Table**                    | **Fields**                  | **Reference Table**              | **Reference Field** | **Comment** |
+|------------------------------|-----------------------------|----------------------------------|---------------------|-------------|
+| `task_prospect_sample_sents` | rep_id                      |                           `reps` | id                  |             |
+| `task_prospect_sample_sents` | rep_number                  |                           `reps` | number              |             |
+| `task_prospect_sample_sents` | prospect_id                 |                  `rep_prospects` | id                  |             |
+| `task_prospect_sample_sents` | sample_id                   |          `task_prospect_samples` | id                  |             |
