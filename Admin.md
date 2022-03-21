@@ -36,10 +36,10 @@
 
 ### Training Type 관리
 - 추가 / 변경
-- 삭제 불가
+- 삭제 불가 (시스템 관리자 삭제 가능)
 ### Training Element Type 관리
 - 추가 / 변경
-- 삭제 불가
+- 삭제 불가 (시스템 관리자 삭제 가능)
 ### Prospect Status 관리
 - 추가 / 변경
 - 삭제 가능
@@ -54,10 +54,10 @@
     - Relation Tables: rep_prospects
 ### Task Type 관리
 - 추가 / 변경
-- 삭제 불가
+- 삭제 불가(시스템 관리자 삭제 가능)
 ### Task Activity Type 관리
 - 추가 / 변경
-- 삭제 불가
+- 삭제 불가(시스템 관리자 삭제 가능)
 
 ### Task Sharing Configuration 관리
 - 진행중
